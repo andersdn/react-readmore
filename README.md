@@ -1,14 +1,18 @@
 **Expand / collapse, component automatically calculates desired height**
 
-*** Props ***
+***Props***
 
 All props are optional
+
+****Default Props****
+
 ```
 collapseText:'Read Less',
 expandText:'Read More',
 minHeight:'50px',
 animation:'1s ease',
 className:'react-openclose'
+```
 
 |Prop           |What                            |Default          |
 |---------------|--------------------------------|-----------------|
@@ -18,11 +22,10 @@ className:'react-openclose'
 |`animation`    |Css syntax animation prop       |`1s ease`        |
 |`className`    |Component ClassName¹            |`react-openclose`|
 
-**** CSS (¹) ****
+****CSS (¹)****
 
 Im not going to assume how your CSS loaders are setup;
-So style implimentation is up to you, see the `/example` for usage
-and below for class names.
+So style implimentation is up to you, but see below for class names.
 
 ```
 react-openclose__wrapper : react always needs a container
@@ -32,7 +35,7 @@ react-openclose--closed  : open state on container
 react-openclose__button : the button
 ```
 
-*** Minimal example ***
+***Minimal Example***
 
 ```
 import ReadMore = from 'react-readmore';
