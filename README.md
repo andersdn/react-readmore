@@ -38,7 +38,7 @@ react-openclose__button : the button
 ***Minimal Example***
 
 ```
-import ReadMore = from 'react-readmore';
+import ReadMore from 'react-readmore';
 
 // ...etc
 
